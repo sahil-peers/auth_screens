@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title><%= process.env.VUE_APP_COMPANY %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+
+    <link class="favicon" rel="apple-touch-icon" sizes="57x57" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-57x57.png">
+    <link class="favicon" rel="apple-touch-icon" sizes="60x60" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-60x60.png">
+    <link class="favicon" rel="apple-touch-icon" sizes="72x72" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-72x72.png">
+    <link class="favicon" rel="apple-touch-icon" sizes="76x76" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-76x76.png">
+    <link class="favicon" rel="apple-touch-icon" sizes="114x114" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-114x114.png">
+    <link class="favicon" rel="apple-touch-icon" sizes="120x120" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-120x120.png">
+    <link class="favicon" rel="apple-touch-icon" sizes="144x144" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-144x144.png">
+    <link class="favicon" rel="apple-touch-icon" sizes="152x152" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-152x152.png">
+    <link class="favicon" rel="apple-touch-icon" sizes="180x180" href="<%= process.env.VUE_APP_FAVICON_URL %>/apple-icon-180x180.png">
+    <link class="favicon" rel="icon" type="image/png" sizes="192x192"  href="<%= process.env.VUE_APP_FAVICON_URL %>/android-icon-192x192.png">
+    <link class="favicon" rel="icon" type="image/png" sizes="32x32" href="<%= process.env.VUE_APP_FAVICON_URL %>/favicon-32x32.png">
+    <link class="favicon" rel="icon" type="image/png" sizes="96x96" href="<%= process.env.VUE_APP_FAVICON_URL %>/favicon-96x96.png">
+    <link class="favicon" rel="icon" type="image/png" sizes="16x16" href="<%= process.env.VUE_APP_FAVICON_URL %>/favicon-16x16.png">
+    <link class="favicon" rel="manifest" href="<%= process.env.VUE_APP_FAVICON_URL %>/manifest.json">
+    <meta class="favicon" name="msapplication-TileColor" content="#ffffff">
+    <meta class="favicon" name="msapplication-TileImage" content="<%= process.env.VUE_APP_FAVICON_URL %>/logo.png">
+    <meta class="favicon" name="theme-color" content="#ffffff">
+
+    <!-- https://stackoverflow.com/questions/19778620/provide-an-image-for-whatsapp-link-sharing -->
+    <meta name="description" content="">
+    <meta property="og:title" content="<%= process.env.VUE_APP_COMPANY %>" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="<%= process.env.VUE_APP_COMPANY %>">
+    <meta property="og:image" content="<%= process.env.VUE_APP_FAVICON_URL %>/ms-icon-144x144.png">
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="es_MX" />
+    <meta name="twitter:card" content="<%= process.env.VUE_APP_COMPANY %>"></meta>
+
+    <script type="text/javascript" src="https://js.openpay.mx/openpay.v1.min.js"></script>
+    <script type='text/javascript' src="https://js.openpay.mx/openpay-data.v1.min.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= process.env.VUE_APP_COMPANY %> app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

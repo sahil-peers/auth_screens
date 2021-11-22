@@ -1,0 +1,103 @@
+// @import "variables";
+// @import "fonts";
+// @import "common";
+// @import "ui";
+
+.body-0 {
+  font-size: 13px !important;
+}
+
+.v-btn.btn-small {
+  min-width: 0;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.no-border-top {
+  border-top: none !important;
+}
+.no-border-bottom {
+  border-bottom: none !important;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    max-width: 200px;
+    max-height: 80px;
+  }
+}
+
+.pickup-checkbox {
+  margin-bottom: 0px !important;
+  label {
+    font-size: 13px;
+    color: #222 !important;
+  }
+}
+
+.shipments-rates{
+  table{
+    min-height:50px;
+    tbody{
+      td, th{
+        height:auto;
+      }
+    }
+  }
+
+  .name-checkbox{
+    display:flex;
+    flex-direction:column;
+    padding-top:3px !important;
+    padding-bottom:3px !important;
+    img{
+      max-width: 100px;
+    }
+    .pickup-checkbox{
+      margin: 0 !important;
+      margin-top: 7px !important;
+    }
+  }
+}
+.shipments-rates{
+  table{
+    tbody{
+      td{
+        img{
+          display:block;
+        }
+      }
+    }
+  }
+}
+
+.hidden-row{
+  display: none;
+}
+.large-btn-size{
+  width:50% !important;
+}
+.logo-checkbox{
+  img{
+    margin:3px 0;
+  }
+  .layout{
+    margin:0px !important;
+  }
+}
+
+.v-datatable .v-input--selection-controls{
+    align-items:center;
+}
+.v-datatable .v-input__append-outer{
+  margin-left:-7px;
+}
+
+.dest-phone-error{
+  visibility: hidden;
+}
